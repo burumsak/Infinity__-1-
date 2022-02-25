@@ -32,18 +32,13 @@ st.set_page_config(
 okc = pd.read_excel("Copy of User Details_Faf(1).xlsx")
 
 #st.title("Infinity")
-st.image("image.png",width=250)
+st.image("images/Infinity.png",use_column_width = True)
 
 st.markdown('##')  
 
-with st.expander("Show data"):
-    st.write(okc)
-st.write("") 
-st.markdown('##')
   
-'''
-*Answer these questions to find new people to interact with!*
-'''   
+st.header('_Answer these questions to find new people to interact with!_')
+  
 st.markdown('#')
 
 okc1 = pd.DataFrame()
